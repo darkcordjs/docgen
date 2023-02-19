@@ -41,7 +41,7 @@ if (!input) {
 
 let data: (ChildTypes & RootTypes)[] | DeclarationReflection[] = [];
 
-console.log(`${blue("[INFO]")} Parsing Typescript in source files...`);
+console.log(`${blue("info")} Parsing Typescript in source files...`);
 
 const app = new Application();
 
