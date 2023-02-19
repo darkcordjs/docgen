@@ -101,7 +101,7 @@ console.log(`${blue("info")} Serializing documentation with format version ${Doc
 const docs = new Docs(data, { input, custom: customDocs, root, output }, custom);
 
 if (output) {
-    console.log(`Writing to ${output}...`);
+    console.log(`${blue("info")} Writing to ${output}...`);
     writeFileSync(output, JSON.stringify(docs.serialize()));
 }
 
